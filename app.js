@@ -29,6 +29,10 @@ new Vue({
          const plus = especial ? 5 : 0
          const hurt = this.getRandom(min + plus, max + plus)
          this[atr] = Math.max(this[atr] - hurt, 0)
+      },
+      heal(min, max) {
+         const heal = this.getRandom(min, max)
+         this.playerLife = Math.min(this.playerLife + heal, 100)
       }
    },
    watch: {
