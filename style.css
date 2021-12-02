@@ -100,3 +100,33 @@
    background-color: #bbb;
    color: #000;
 }
+
+.player {
+   background-color: #798ae6;
+}
+
+.monster {
+   background-color: #f26d71;
+}
+
+.log {
+   margin: 6px 0 6px 0;
+   text-transform: uppercase;
+   color: white;
+   list-style: none;
+   text-align: center;
+   font-size: 1.1rem;
+   padding: 8px;
+   height: 20px;
+   width: 30%;
+   border-radius: 5px;
+}
+
+.panel-log {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0;
+
+}
